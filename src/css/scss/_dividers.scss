@@ -1,0 +1,48 @@
+/* -------------------------------------
+  DIVIDERS
+------------------------------------- */
+.divider-wrapper{
+	.divider {
+		border-collapse: separate;
+	  td {
+	    border-top: 1px solid $divider-color;
+	    line-height: 0;
+	    font-size: 0;
+	    height: 1px;
+	    margin: 0;
+	    padding: 0;
+	    img {
+		    max-height: 1px;
+		    display: block;
+	    }
+		}
+	}
+}
+
+
+.h-rule-h,
+.h-rule-d,
+.v-rule-h,
+.v-rule-d {
+	border-collapse: separate;
+  line-height: 0;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  img {
+    max-height: 1px;
+    display: block;
+  }
+}
+
+.h-rule-h,
+.h-rule-d {
+	height: 1px;
+	border-top: 2px solid $divider-color;
+}
+
+.v-rule-h,
+.v-rule-d {
+	border-left: 2px solid $divider-color;
+	width: 1px;
+}

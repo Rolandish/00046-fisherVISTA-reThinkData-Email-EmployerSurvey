@@ -1,0 +1,43 @@
+/* -------------------------------------
+    CONFIGURE YOUR VARIABLES
+------------------------------------- */
+
+$darkgrey: #DCDCDC; // Background color
+$grey: #F7F7F7; // Background color
+$white: #FFFFFF; // Background color
+$width: 600px; // Width of the content area
+$br: 2px; // Border radius
+$btn-br: 3px; // Border radius
+$primary-color: #348eda; // Primary color for buttons and links
+$font-color: #4A4A4A; // Default font color
+
+// Typography
+// -------
+$header-font-color:          #444444 !default;
+$body-font-family:          'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif, 'Roboto';
+$body-font-weight:          400 !default;
+$body-font-size:            14px !default;
+$body-font-color:           #4A4A4A !default;
+$body-font-color-sub:       #4A4A4A !default;
+$body-font-color-number:    #3A85FA !default;
+$body-line-height:          1.6 !default;
+$body-link-color:						#0066FF !default;
+$footer-link-color:					#DCDCDC !default;
+
+// Notices
+// -------
+
+$notice-color-info:         #3d88ce !default;
+$notice-color-success:      #81ad22 !default;
+$notice-color-warning:      #c6a121 !default;
+$notice-color-danger:       #be2c2c !default;
+$notice-border-radius:      6px !default;
+$notice-font-size:          $body-font-size !default;
+$notice-font-weight:        $body-font-weight !default;
+$notice-line-height:        $body-line-height !default;
+
+// Dividers
+// --------
+
+$divider-margin:			0 !default;
+$divider-color:				#DCDCDC !default;

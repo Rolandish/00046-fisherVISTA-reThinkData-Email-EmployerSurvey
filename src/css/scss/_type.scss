@@ -1,0 +1,152 @@
+/* -------------------------------------
+    TYPOGRAPHY
+------------------------------------- */
+
+h1,
+h2,
+h3,
+h4 {
+  color: $header-font-color !important;
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif, 'Lato';
+  font-weight: 400;
+  line-height: 1.4em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 38px;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 14px;
+  font-weight:500;
+}
+
+p,
+ul,
+ol {
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif, 'Lato';
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+
+  li {
+    list-style-position: inside;
+  }
+}
+
+a:link, a:hover, a:visited, a:active {
+  color: $primary-color;
+  text-decoration: underline;
+}
+
+
+// Class Fonts
+.h1,
+.h2,
+.h3,
+.h4 {
+  color: $font-color;
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif, 'Lato';
+  font-weight: 400;
+	line-height: 1.2em;
+  margin: 0;
+}
+
+.h1 {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+}
+
+.h2 {
+  font-size: 16px;
+  text-align: left;
+  font-weight: 700;
+}
+
+.h3 {
+  font-size: 36px;
+  color: $body-font-color-number !important;
+  text-transform: uppercase;
+  line-height: 1.0em !important;
+}
+
+.h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.p,
+.s,
+.b {
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif, 'Lato';
+  font-weight: 300;
+	color: $body-font-color !important;
+  text-align: left;
+  margin: 0;
+}
+
+.p
+  {
+	font-size: 16px;
+  line-height: 1.6em;
+}
+
+.s {
+	font-size: 14px;
+  line-height: 1.8em;
+  a {
+	  color: #9D2629 !important;
+  }
+}
+
+b {
+	font-weight: 700;
+}
+
+a {
+	color: $body-link-color !important;
+	text-decoration: none !important;
+}
+
+.ul,
+.ol {
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif, 'Lato';
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+
+  li {
+    list-style-position: inside;
+  }
+}
+
+// Break long strings to prevent x-scrolling
+code,
+pre,
+.word-wrap {
+  word-break: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+.footer {
+	font-size: 12px;
+  line-height: 1.2em;
+	color: $footer-link-color !important;
+  a {
+	  color: $footer-link-color !important;
+  }
+}
+

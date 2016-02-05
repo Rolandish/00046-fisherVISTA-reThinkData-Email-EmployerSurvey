@@ -1,0 +1,12 @@
+{{!
+	Padding Block
+	Params:
+		orientation: (string) accepts 'v', 'h'
+		size: (string) accepts '1' - '150' and '548'
+		bg-color: (string) accepts 'darkgray', 'gray', 'white'
+		hide-on-mobile: (string) accepts 'y', 'n'
+		table-cell: (string) accepts 'd', 'h'
+}}
+<t{{ table-cell }} class="{{ orientation }}-padding-{{ size }} bg-{{ bg-color }} hide-{{ hide-on-mobile }} {{ table-cell }}">
+	<img alt="spacer" src="../dist/img/spacer.gif" />
+</t{{ table-cell }}>

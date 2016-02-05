@@ -1,0 +1,33 @@
+{{!
+	Padding Block
+	Params:
+		img-name: (string) accepts 'AmitSingh', 'h'
+		name: (string) accepts text
+		title: (string) accepts text
+		google-department: (string) accepts text
+}}
+
+<table class="host" cellpadding="0" cellspacing="0">
+	<tr>
+		<!-- .host-img one -->
+		{{> padding orientation='v' size='48' bg-color='darkgray' hide-on-mobile='no' }}
+		<td class="host-img" align="center">
+			<img src="../dist/img/{{ img-name }}.png" alt="{{ name }}" />
+		</td>
+		{{> padding orientation='v' size='48' bg-color='darkgray' hide-on-mobile='no' }}
+	</tr>
+	<tr>
+	{{> padding orientation='h'size='18' bg-color='white' hide-on-mobile='no' }}
+	</tr>
+	<tr>
+		<td colspan="3" class="p">
+			{{ name }}
+		</td>
+	</tr>
+	<tr>
+		<td colspan="3" class="s">
+			{{ title }} <br />
+			{{ google-department }}
+			</td>
+	</tr>
+</table>

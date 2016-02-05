@@ -1,0 +1,89 @@
+/* -------------------------------------
+    RESPONSIVE AND MOBILE FRIENDLY STYLES
+------------------------------------- */
+
+table[class=body]{
+
+  @media only screen and (max-width: $width+-120) {
+
+	  // Spacing
+		.main,
+	  .container,
+	  .content,
+	  .wrapper {
+	    padding: 0 !important;
+	    width: 100% !important;
+	  }
+
+		.main {
+	  	border-right-style: none !important;
+		  border-left-style: none !important;
+		}
+
+		.logo {
+			width: 70% !important;
+		}
+
+		// Image properties
+		img {
+			max-width: 100% !important;
+			height: auto !important;
+		}
+
+	  // Type
+		.h1 {
+		  font-size: 16px !important;
+		}
+
+	  // For stacking th
+	  .h {
+			display:block !important;
+			width: 100% !important;
+			float:left;
+			clear:both;
+		}
+
+		// Buttons
+	  .btn a {
+	    width: 100% !important;
+	    font-size: 12px !important;
+	  }
+
+	  // Show and Hide
+	  .hide-y {
+	    display: none !important;
+	  }
+
+	  .hide-n {
+	    display: block !important;
+		}
+	}
+
+ 	@media only screen and (max-width: $width) {
+
+	  // Spacing
+		.main,
+	  .container,
+	  .content,
+	  .wrapper {
+	    padding: 0 !important;
+	    width: 100% !important;
+	    max-width: 100% !important;
+	  }
+
+		.main {
+		  border-right-style: none !important;
+		  border-left-style: none !important;
+	  	width: 100% !important;
+		}
+
+		// Show and Hide
+	  .hide-y {
+	    display: none !important;
+	   }
+
+	  .hide-n {
+	    display: block !important;
+		}
+	}
+}
