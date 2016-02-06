@@ -43,10 +43,14 @@ table[class=body]{
 			clear:both;
 		}
 
+		a {
+			color: $body-link-color !important;
+		}
+
 		// Buttons
 	  .btn a {
 	    width: 100% !important;
-	    font-size: 12px !important;
+	    font-size: 11px !important;
 	  }
 
 	  // Show and Hide

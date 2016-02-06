@@ -18,7 +18,7 @@ img {
   display: block; }
 
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif, 'Lato';
+  font-family: Helvetica, Arial, sans-serif, 'Lato';
   -webkit-font-smoothing: antialiased;
   font-size: 14px;
   height: 100% !important;
@@ -134,9 +134,9 @@ body {
     color: #FFFFFF !important;
     cursor: pointer;
     display: inline-block;
-    line-height: 260%;
+    line-height: 250%;
     text-align: center;
-    font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif, 'Lato';
+    font-family: Helvetica, Arial, sans-serif, 'Lato';
     font-size: 24px;
     font-weight: 400;
     text-decoration: none !important;
@@ -155,7 +155,7 @@ h2,
 h3,
 h4 {
   color: #444444 !important;
-  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif, 'Lato';
+  font-family: Helvetica, Arial, sans-serif, 'Lato';
   font-weight: 400;
   line-height: 1.4em;
   margin: 0; }
@@ -178,7 +178,7 @@ h4 {
 p,
 ul,
 ol {
-  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif, 'Lato';
+  font-family: Helvetica, Arial, sans-serif, 'Lato';
   font-size: 14px;
   font-weight: normal;
   margin: 0; }
@@ -187,16 +187,17 @@ ol {
   ol li {
     list-style-position: inside; }
 
-a:link, a:hover, a:visited, a:active {
-  color: #348eda;
-  text-decoration: underline; }
+a {
+  text-decoration: none !important; }
+  a img {
+    border: none !important; }
 
 .h1,
 .h2,
 .h3,
 .h4 {
   color: #4A4A4A;
-  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif, 'Lato';
+  font-family: Helvetica, Arial, sans-serif, 'Lato';
   font-weight: 400;
   line-height: 1.2em;
   margin: 0; }
@@ -225,7 +226,7 @@ a:link, a:hover, a:visited, a:active {
 .p,
 .s,
 .b {
-  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif, 'Lato';
+  font-family: Helvetica, Arial, sans-serif, 'Lato';
   font-weight: 300;
   color: #4A4A4A !important;
   text-align: left;
@@ -234,6 +235,8 @@ a:link, a:hover, a:visited, a:active {
 .p {
   font-size: 16px;
   line-height: 1.6em; }
+  .p a {
+    color: #0066FF !important; }
 
 .s {
   font-size: 14px;
@@ -244,13 +247,9 @@ a:link, a:hover, a:visited, a:active {
 b {
   font-weight: 700; }
 
-a {
-  color: #0066FF !important;
-  text-decoration: none !important; }
-
 .ul,
 .ol {
-  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif, 'Lato';
+  font-family: Helvetica, Arial, sans-serif, 'Lato';
   font-size: 14px;
   font-weight: normal;
   margin: 0; }
@@ -267,11 +266,15 @@ pre,
   -moz-hyphens: auto;
   hyphens: auto; }
 
-.footer {
+.footer td {
+  font-family: Helvetica, Arial, sans-serif, 'Lato';
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
   font-size: 12px;
   line-height: 1.2em;
   color: #DCDCDC !important; }
-  .footer a {
+  .footer td a {
     color: #DCDCDC !important; }
 
 /* -------------------------------------
@@ -419,9 +422,11 @@ pre,
     width: 100% !important;
     float: left;
     clear: both; }
+  table[class=body] a {
+    color: #0066FF !important; }
   table[class=body] .btn a {
     width: 100% !important;
-    font-size: 12px !important; }
+    font-size: 11px !important; }
   table[class=body] .hide-y {
     display: none !important; }
   table[class=body] .hide-n {

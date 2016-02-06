@@ -7,7 +7,7 @@ h2,
 h3,
 h4 {
   color: $header-font-color !important;
-  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif, 'Lato';
+  font-family: Helvetica, Arial, sans-serif, 'Lato';
   font-weight: 400;
   line-height: 1.4em;
   margin: 0;
@@ -32,7 +32,7 @@ h4 {
 p,
 ul,
 ol {
-  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif, 'Lato';
+  font-family: Helvetica, Arial, sans-serif, 'Lato';
   font-size: 14px;
   font-weight: normal;
   margin: 0;
@@ -42,11 +42,12 @@ ol {
   }
 }
 
-a:link, a:hover, a:visited, a:active {
-  color: $primary-color;
-  text-decoration: underline;
+a {
+	text-decoration: none !important;
+	img {
+		border: none !important;
+	}
 }
-
 
 // Class Fonts
 .h1,
@@ -54,7 +55,7 @@ a:link, a:hover, a:visited, a:active {
 .h3,
 .h4 {
   color: $font-color;
-  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif, 'Lato';
+  font-family: Helvetica, Arial, sans-serif, 'Lato';
   font-weight: 400;
 	line-height: 1.2em;
   margin: 0;
@@ -88,7 +89,7 @@ a:link, a:hover, a:visited, a:active {
 .p,
 .s,
 .b {
-  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif, 'Lato';
+  font-family: Helvetica, Arial, sans-serif, 'Lato';
   font-weight: 300;
 	color: $body-font-color !important;
   text-align: left;
@@ -99,6 +100,9 @@ a:link, a:hover, a:visited, a:active {
   {
 	font-size: 16px;
   line-height: 1.6em;
+  a {
+	  color: $body-link-color !important;
+  }
 }
 
 .s {
@@ -113,14 +117,9 @@ b {
 	font-weight: 700;
 }
 
-a {
-	color: $body-link-color !important;
-	text-decoration: none !important;
-}
-
 .ul,
 .ol {
-  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif, 'Lato';
+  font-family: Helvetica, Arial, sans-serif, 'Lato';
   font-size: 14px;
   font-weight: normal;
   margin: 0;
@@ -141,7 +140,11 @@ pre,
   hyphens: auto;
 }
 
-.footer {
+.footer td {
+	font-family: Helvetica, Arial, sans-serif, 'Lato';
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
 	font-size: 12px;
   line-height: 1.2em;
 	color: $footer-link-color !important;

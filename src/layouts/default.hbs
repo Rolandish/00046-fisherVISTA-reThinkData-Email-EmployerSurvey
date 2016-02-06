@@ -18,23 +18,86 @@
 <title>{{ subject }}</title>
 
 <style data-embed type="text/css">
-	/* BEGIN STYLES TO PAST INTO FINAL  */
+	/* Custum Fonts - Place custum font at end of font-family */
 	@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
-	[style*="Lato"] {font-family: 'Lato', Helvetica, Arial, sans-serif !important}
 
-	ReadMsgBody {width: 100%;}
-	.ExternalClass {width: 100%;}
-	.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
-	body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0 !important; padding:0 !important;}
-	font, p { margin: 1em 0;}
-	table td { border-collapse: collapse; }
-	img {outline:0;}
-	a:link, a:visited, a:active, a:hover {color: #0066FF !important;}
-	.btn a, a:link, .btn a:visited, .btn a:active {color: #FFFFFF !important; text-decoration: none !important;}
-	.btn a:hover {color: #FFFFFF !important; text-decoration: none !important; background-color: #0077EE !important;}
-	a img {border:none;}
+	[style*="Lato"] {
+		font-family: 'Lato', Helvetica, Arial, sans-serif !important;
+	}
+	/* Global Styles  */
+	ReadMsgBody {
+		width: 100%;
+	}
 
-	@-ms-viewport { width: device-width;}
+	.ExternalClass {
+		width: 100%;
+	}
+
+	.ExternalClass,
+	.ExternalClass p,
+	.ExternalClass span,
+	.ExternalClass font,
+	.ExternalClass td,
+	.ExternalClass div {
+		line-height: 100%;
+	}
+
+	body {
+		-webkit-text-size-adjust:100%;
+		-ms-text-size-adjust:100%;
+		margin:0 !important;
+		padding:0 !important;
+	}
+
+	font, p {
+		margin: 1em 0;
+	}
+
+	table td {
+		border-collapse: collapse;
+	}
+
+	img {
+		outline:0;
+	}
+
+	.p a:link,
+	.p a:visited,
+	.p a:active,
+	.p a:hover {
+		color: #0066FF !important;
+		text-decoration: none !important;
+	}
+
+	.btn a:link,
+	.btn a:visited,
+	.btn a:active {
+		color: #FFFFFF !important;
+		text-decoration: none !important;
+	}
+	.btn a:hover {
+		background-color: #0077EE !important;
+	}
+
+	.s a:link,
+	.s a:visited,
+	.s a:active,
+	.s a:hover {
+		color: #9D2629 !important;
+		text-decoration: none !important;
+	}
+
+	.footer td,
+	.footer a {
+		color: #DCDCDC !important;
+		text-decoration: none !important;
+  }
+
+
+
+	@-ms-viewport {
+		width: device-width;
+	}
 	/* END STYLES TO PAST INTO FINAL  */
 </style>
 
@@ -45,7 +108,7 @@
 
 <body>
 
-<table class="body" align="center" cellpadding="0" cellspacing="0">
+<table class="body" align="center" cellpadding="0" cellspacing="0" border="0">
 	<tr>
 		<td class="container" align="center">
 			<div class="content">{{ body }}</div>
